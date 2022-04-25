@@ -24,4 +24,4 @@ WHERE
 (diagnoses.icd_version = '9' AND icd_code LIKE '428%')
 OR (diagnoses.icd_version = '10' AND icd_code LIKE 'I50%')
 )
-AND labevents.itemid in (51002,52642,51003)
+AND labevents.itemid in (51002,52642,51003,50963,51921)
